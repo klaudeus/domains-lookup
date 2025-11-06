@@ -51,14 +51,15 @@ const available = {};
 tlds.forEach((tld) => (available[tld] = []));
 
 async function checkDomainsBatch(domains) {
-  const url = `https://api.ote-godaddy.com/v1/domains/available`;
+  const url = `https://api.ote-godaddy.com/v1/domains/available?checkType=FAST`;
   const response = await fetch(url, {
     method: "POST",
     headers: {
       Authorization: `sso-key ${GODADDY_API_KEY}:${GODADDY_API_SECRET}`,
       "Content-Type": "application/json",
+      Accept: "application/json",
     },
-    body: JSON.stringify({ domains, checkType: "FAST" }),
+    body: JSON.stringify(domains),
   });
 
   if (!response.ok) {
